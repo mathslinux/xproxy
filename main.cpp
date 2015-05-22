@@ -1,5 +1,8 @@
 #include <QApplication>
-#include "tray.h"
+#include <QIcon>
+
+#include "icon.h"
+#include "Tray.h"
 
 int main(int argc, char *argv[])
 {
