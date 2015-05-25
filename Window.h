@@ -2,6 +2,7 @@
 #define WINDOW_H
 
 #include <QWidget>
+#include <QCloseEvent>
 
 class Window : public QWidget
 {
@@ -9,6 +10,7 @@ class Window : public QWidget
 public:
     Window();
     ~Window();
+    virtual void closeEvent(QCloseEvent *event);
 };
 
 #endif // WINDOW_H

@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>icons/proxy.png</file>
+        <file>icons/xproxy.png</file>
     </qresource>
 </RCC>

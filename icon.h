@@ -3,7 +3,7 @@
 
 #include <QChar>
 
-const char * const icon_file = ":/icons/proxy.png";
+const char * const icon_file = ":/icons/xproxy.png";
 
 #endif // ICON_H
 

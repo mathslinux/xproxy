@@ -9,3 +9,9 @@ Window::~Window()
 {
 
 }
+
+void Window::closeEvent(QCloseEvent *event)
+{
+    event->ignore();
+    this->hide();
+}
